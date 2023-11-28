@@ -1,0 +1,81 @@
+#create a function that will be used for a user's profile. this function
+#should accept 3 arguments; a picture, name, place. when the code is ran,
+# it should print out these values.
+
+# we know we need to use picture, name, place.
+# we know we need to print it out at some point
+
+def profileData():
+    place = input('where are you from? ')
+    name = input('what is your name? ')
+    picture = input('upload a picture ')
+
+    print('success! heres your profile info')
+    print("name: "+ name)
+    print("place: "+ place)
+    print("picture: "+ picture)
+
+profileData()
+
+# conditional statemnts
+# Conditional Statments are a tool that allows
+# programmers to control the outcome/ execution of a program 
+# depending on the scenario. We use if and else keywords
+# to execute a conditional statement
+def info():
+    sunIsOut = True
+
+    if sunIsOut == True:
+        print('its day time.')
+    else:
+        print('night time')
+
+
+
+    Cereal_inventory = 10
+    cereal_sold = int(input("How much cereal did we sell today?:  "))
+
+    if cereal_sold >= Cereal_inventory:
+        print("We need to order more cereal")
+    else:
+        print('we still have cereal in the the back')
+
+
+
+i = 0
+
+while i <= 6:
+    print(i)
+    i+=3
+
+#def  function():
+
+alarmTime = float(input('What time is it?: '))
+
+var = 'string'
+const = input('something: ')
+
+while alarmTime ==8.00:
+    print('time to wake up. ')
+
+print('waiting for time to go')
+
+
+#For loops = Run up to the number of items in an array
+
+#iterate with while loop
+#def heart():
+
+    #x=0
+    #while x <= 6:
+
+
+# computer program is insturctions that are read by a computer to perform a specidic program
+
+
+def storeDiscount():
+    userItem_name = input('What is the name of the item?: ')
+    userItem_price = float(input('How much is the Item?: '))
+    isUserAMemeber = input('Are you member of the store club?: ')
+    if isUserAMemeber == 'yes':
+        discount_25 = userItem_price

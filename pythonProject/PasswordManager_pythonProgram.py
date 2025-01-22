@@ -11,7 +11,7 @@ def Connecter():
         if Password == "author":
             print("Welcome")
     else:
-       print("Not Correct")
+       print("Incorrect password or email")
     
 
 # account information from that email and password for how many accounts
